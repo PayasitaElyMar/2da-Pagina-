@@ -1,0 +1,54 @@
+/**** Navegacion  ****/
+/**https://newevolutiondesigns.com/images/freebies/abstract-background-4.jpg****/
+
+header{
+    text-align:center;
+background:url("https://newevolutiondesigns.com/images/freebies/abstract-background-4.jpg");
+    background-size: cover;
+    color:whitesmoke;
+    padding: 10px;
+}
+
+
+h1{font-size: 45px}
+
+ul{
+    background: black;
+    padding: 5px;
+}
+img{
+    width: 44%;
+    40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px
+}
+
+a{ 
+color:aliceblue;
+padding: 0px 12px 0px 12px;
+    
+    
+    
+}
+li{
+    list-style: none;
+    display: inline;
+    
+}
+article{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+@media (max-width:500px) {
+    h1{font-size: 20px;
+    }
+    li{
+        display: block;
+    }
+    
+    }
+    
+}
